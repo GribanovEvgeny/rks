@@ -142,7 +142,7 @@ $(document).ready(function() {
   // инициализация кнопки печати
   initModalForPrintButton()
 
-  // инициализация кнопки Настройки и модалки при переходе в настройки 
+  // инициализация кнопки Настройки и модалки при переходе в настройки
   if(window.location.search.indexOf('update') !== -1 || window.location.search.indexOf('requesttype_id=') !== -1 || window.location.search.indexOf('copy=') !== -1)
     initButtonSettings()
 })
